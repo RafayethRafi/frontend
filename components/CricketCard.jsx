@@ -19,7 +19,7 @@ const CricketCard = ({ review, isAdmin, onEditClick, onShowReview }) => {
         </CardTitle>
       </CardHeader>
       <CardContent className="pt-6 flex flex-col">
-        {showScore && (
+        {/* {showScore && (
           <div className="flex justify-between mb-4 text-center">
             <div className="flex-1">
               <p className="text-lg font-semibold">{review.team1}</p>
@@ -30,11 +30,11 @@ const CricketCard = ({ review, isAdmin, onEditClick, onShowReview }) => {
               <p className="text-3xl font-bold">{review.score2}/{review.wicket2}</p>
             </div>
           </div>
-        )}
+        )} */}
       </CardContent>
       <CardFooter>
         <Button onClick={onShowReview} variant="outline" className="w-full">
-          Show Review
+          Show Insight
         </Button>
       </CardFooter>
     </Card>

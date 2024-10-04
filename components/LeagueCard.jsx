@@ -27,7 +27,7 @@ const LeagueCard = ({ league, isAdmin, onEditClick, onDeleteClick, onViewInsight
       <CardFooter>
         <Button onClick={onViewInsights} variant="outline" className="w-full">
           <Eye className="h-4 w-4 mr-2" />
-          View Insights
+          View Matches
         </Button>
       </CardFooter>
     </Card>
